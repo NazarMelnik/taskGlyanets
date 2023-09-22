@@ -1,7 +1,3 @@
-.assortment-section {
-  padding: 100px 0;
-}
-
 .assortment-links {
   display: flex;
   margin-top: 40px;
@@ -34,7 +30,6 @@
 .assortment-list {
   display: flex;
   justify-content: center;
-  gap: 10px;
   align-items: end;
   text-align: center;
   flex-wrap: wrap;
