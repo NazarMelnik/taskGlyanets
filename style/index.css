@@ -1,0 +1,51 @@
+@import url("./component/header.css");
+@import url("./component/title.css");
+@import url("./component/about.css");
+@import url("./component/assortment.css");
+@import url("./component/work.css");
+@import url("./component/benefit.css");
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Blogger Sans";
+  src: url("/font/Blogger\ Sans.otf") format("otf");
+}
+body {
+  font-family: "Blogger Sans", sans-serif;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.section-title {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #2d3748;
+}
+.section-btn {
+  padding: 10px 42px;
+  background-color: #ffd324;
+  box-shadow: 0px 0px 29px 0px rgba(255, 249, 94, 0.54);
+  border-radius: 30px;
+  font-size: 20px;
+  transition: 0.6s;
+  font-weight: 500;
+  color: #1a202c;
+}
+.section-btn:hover {
+  box-shadow: none;
+}
+@media (max-width: 1440px) {
+  .section-title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .section-title {
+    font-size: 32px;
+  }
+}
