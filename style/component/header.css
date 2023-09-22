@@ -37,7 +37,7 @@
   vertical-align: middle;
   width: 24px;
   height: 24px;
-  background-image: url("/img/header/long_right.png");
+  background-image: url("../../img/header/long_right.png");
   background-size: cover;
   margin-left: 5px;
 }
