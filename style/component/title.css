@@ -1,7 +1,7 @@
 .title-section {
   padding-top: 250px;
   min-height: 100vh;
-  background-image: url("/img/title/1.png");
+  background-image: url("./img/title/1.png");
   background-attachment: fixed;
   -webkit-background-attachment: fixed;
   -moz-background-attachment: fixed;
